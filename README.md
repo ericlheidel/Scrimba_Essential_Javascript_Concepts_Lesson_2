@@ -1,21 +1,77 @@
-# co6314fe1bd6ed96c53f2ee0c
+LEARNED IN THIS LESSON:
 
-Quick start:
 
-```
-$ npm install
-$ npm start
-````
+--------------------
+for of
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+example: 
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+function getEmotionsArray(cats){
+    for (let cat of cats){
+        console.log(cat)
+    }
+--------------------
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
-Happy Coding!
+--------------------
+import/export
+
+example:
+
+1. create new file
+2. addition of type=“module”
+example: <script src="index.js" type="module"></script>
+3. add “export” to all const & functions (etc) in new file
+4. add “import { thing to import } from ‘/filepath.js” in main .js file
+--------------------
+
+
+--------------------
+<input> types radio and checkbox
+--------------------
+
+
+--------------------
+querySelector
+
+example:
+
+document.querySelector(‘input[type=“radio]:checked”)
+this example will take control of all radio inputs that are checked
+--------------------
+
+
+--------------------
+getElementsByClassName & classList.remove
+
+example:
+
+const radios =  document.getElementsByClassName(‘class/classname’)
+	for (let class of classes) {
+		class.classList.remove(‘class/classname’)
+	}
+--------------------
+
+
+--------------------
+.includes()
+
+example: 
+
+if (item.includes(“example”){
+	return item
+	})
+--------------------
+
+
+--------------------
+.filter()
+
+example:
+
+[##, ##, ##, #, #, ##]   <—(an array with numbers
+
+const adult = ages.filter(age){
+	return age >= 18
+})
+--------------------
