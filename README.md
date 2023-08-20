@@ -1,4 +1,4 @@
-LEARNED IN THIS LESSON:
+ LEARNED IN THIS LESSON:
 
 
 --------------------
@@ -36,7 +36,7 @@ querySelector
 
 example:
 
-document.querySelector(‘input[type=“radio]:checked”)
+document.querySelector(‘input[type=“radio"]:checked')
 this example will take control of all radio inputs that are checked
 --------------------
 
